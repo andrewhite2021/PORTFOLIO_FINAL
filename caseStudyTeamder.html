@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <title>Case Study Teamder</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="CSS/stylesTeamder.css" type="text/css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alata&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alata&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alata&family=Libre+Baskerville:ital@1&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+<body>
+ <header class="primary-Header flex">
+        <div class="logo">
+          <a href="index.html"><img src="images/logoAlt.png" alt=""></a>
+        </div>
+        <button class="mobile-Toggle-Hamburger" aria-controls="navBar" aria-expanded="false"></button>
+        <nav>
+          <ul id="navBar" data-visible="false" class="navBar">
+            <li><a href="#Research">Research</a><span></span></li>
+            <li><a href="#Insights">Insights</a></li>
+            <li><a href="#Ideation">Ideation</a></li>
+            <li><a href="#Testing">Testing</a></li>
+            <li><a href="#Prototyping">Prototyping</a></li>
+            <li><a href="#Conclusion">Conclusion</a></li>
+         </ul>
+        </nav>
+</header>  
+
+<button onclick="topFunction()" id="topBtn" title="Go to top"></button>
+
+<section class="hero">
+    <div class="heroItems" id="textHero">
+        <h1>Teamder</h1>
+        <h3 id="alt">An App for connecting individuals with local sports teams and teams with individuals</h3>
+    </div>
+    <div class="heroItems">
+        <img src="images/teamderHeaderImg.png"  style="vertical-align: middle;">
+    </div>
+</section>
+<!--About Project Section-->
+<section class="sectionWhite" id="About">
+   <div class="contentBox-Standard">
+        <h2>About the Project</h2>
+        <div class="lineArt" id="purple"></div>
+   </div> 
+   <div class="contentBox-Standard">
+        <p><b>The Task:</b> A course project to design an App or Website to fill a perceived user need. Teams were given maximum freedom to come up with various ideas and develop them from the ground up.</p>
+        <p><b>The Team:</b> Andre White (myself), Ivan Fernandez (Project Manager), Chitram Graham (coding, UX/UI design), Mona Wong (UX/UI Design).  </p>
+        <p><b>My Role:</b>UX and UI design</p>
+        <p><b>Timeline:</b> 3 Weeks - February 2022</p>
+    </div>
+    <div class="contentBox-Standard">
+        <h3>The App</h3>
+        <p>Teamder (a play on Tinder) is an app for connecting individuals with sports teams and teams with individuals. Designed to make it easier for people to make social connections through local sports, safely and quickly.</p>
+    </div>
+    <div class="contentBox-Standard">
+        <img src="images/BrainstormingTeamder.png" height="auto">
+        <p><i>Process for Brainstorming ideas for the new app</i></p>
+    </div>
+</section>
+<!--User Research Section-->
+<section class="sectionWhite" id="Research">
+    <div class="contentBox-Standard">
+        <h2>Research</h2>
+        <div class="lineArt" id="orange"></div>
+    </div> 
+    <div class="contentBox-Standard">
+        <p>We started by conducting 9 user interviews based on the ideas of how people get involved with sport and what are the main reasons why they play or become involved in team sports.</p>
+    </div>
+    <div class="contentBox-Standard">
+        <img src="images/teamderAffinity.png" height="auto">
+        <p><i>Filtering user interview results into an Affinity Diagram.</i></p>
+    </div>
+    <div class="contentBox-Standard">
+        <img src="images/USER PERSONA - light blue 1.png" height="auto">
+        <p><i>Resulting User Persona from User Interviews.</i></p>
+    </div>
+
+</section>
+<!--Research Insights Section-->
+<section class="sectionWhite" id="Insights">
+    <div class="contentBox-Standard">
+        <h2>Key Insights</h2>
+        <div class="lineArt" id="orange"></div>
+    </div>
+    <div>
+        <h3 id="quote">“Mid-age professionals play team sport to keep healthy and form social connections.”
+        </h3>
+    </div>
+    <div>
+        <h3 id="quote">“There is no easy way to find out about team culture / dynamics for new teams.”
+        </h3>
+    </div>
+    <div>
+        <h3 id="quote">“Searching for a new team generally involves basic google searching of key terms (sport + local area).”
+        </h3>
+    </div>
+    <div>
+        <h3 id="quote">“Players generally play for teams for an extended period of time, and will occasionally find it difficult to find fill-in players.”
+        </h3>
+    </div>
+    <div>
+        <h3 id="quote">“There are a base set of hygiene factors that are important to our users when they consider joining a sports team - such as Covid Safe, personal safety and health.”
+        </h3>
+    </div>
+    <div class="contentBox-Standard">
+        <div class="boxHeader-Pink">Key Pain Points</div>
+    </div>
+    <div class="gridDollop">
+        <div class="dollopRed">
+            <p id="dollopText">Finding teams that match a users exact needs.</p>
+        </div>
+        <div class="dollopRed">
+            <p id="dollopText">Under-standing team culture & dynamics before joining.</p>
+        </div>
+        <div class="dollopRed">
+            <p id="dollopText">Having to travel to far to play team sports.</p>
+        </div>
+        <div class="dollopRed">
+            <p id="dollopText">Too much admin in searching for or contacting potential teams</p>
+        </div>
+        <div class="dollopRed">
+            <p id="dollopText">Joining a team but finding they don't match their needs or values.</p>
+        </div>
+    </div>
+    <div class="contentBox-Standard">
+        <h3>So...</h3>
+        <p>We observed that most people who wish to play team sports, <b>want to connect with people of a similar level and interest but don't want to waste time searching for those teams,</b>as this can<b>lead to frustration and disappointment when the team does not meet their needs or values.</b></p>
+        <p>So how might we help <b>mid age professionals</b> to quickly connect with sports teams that match their physical and social needs, <b>saving them time and energy</b> and <b>pairing them with the most appropriate team</b> that <b>matchs their most important criteria?</b></p>
+    </div>
+</section>
+<!--Research Artefacts-->
+<!--Problem Statement-->
+<!--Conceptualisation/ideation-->
+<section class="sectionWhite ideation" id="Ideation">
+    <div class="contentBox-Standard">
+        <h2>Conceptualisation | Ideation</h2>
+        <div class="lineArt" id="blue"></div>
+    </div>
+    <div class="contentBox-Standard">
+        <p>Applying the insights from our research, we developed our Value Proposition and Feature Prioritization Matrix and worked on three key utilities for our app design to focus on.</p>
+    </div>
+    <div class="contentBox-Standard">
+        <img src="images/teamderValuePriority.png" height="auto">
+        <p><i>Value Prioritization diagram.</i></p>
+    </div>
+    <div class="contentBox-Standard">
+        <img src="images/teamderFeaturePrioritisation.png" height="auto">
+        <p><i>Feature Prioritization diagram.</i></p>
+    </div>
+    <div class="contentBox-Standard">
+        <div class="boxHeader-Purple">App Key Features</div>
+    </div>
+    <div class="dollopRow-Blue">
+        <div class="dollopBlue">
+            <p id="dollopText">Individual Profiles/Team Profiles</p>
+        </div>
+        <div class="dollopBlue">
+            <p id="dollopText">Advanced filtered search: area, time, skill level</p>
+        </div>
+        <div class="dollopBlue">
+            <p id="dollopText">Notifications and in App messaging</p>
+        </div>
+    </div>
+    <div class="contentBox-Standard">
+        <img src="images/teamderArrowOrange.png">
+    </div>
+</section>
+<section class="sectionWhite-Wide">
+    <div class="contentBox-Wide">
+        <img src="images/teamderPaperFrames01.png" height="auto">
+        <p><i>Paper frames ideation of search features.</i></p>
+    </div>
+    <div class="contentBox-Wide">
+        <img src="images/teamderPaperFrames02.png" height="auto">
+        <p><i>Paper frames ideation of team profiles.</i></p>
+    </div>
+</section>
+<section class="sectionWhite">
+    <div class="contentBox-Standard">
+        <h3>We also designed a Style Guide with a play on retro sports themes.</h3>
+    </div>
+    <div class="contentBox-Standard">
+        <img src="images/teamderStyleTile.png" height="auto">
+    </div>
+</section>
+<!--User Testing section-->
+<section class="sectionWhite" id="Testing">
+    <div class="contentBox-Standard">
+        <h2>User Testing</h2>
+        <div class="lineArt" id="blue"></div>
+    </div>
+    <div class="contentBox-Standard">
+        <p>Through out the testing stage we did 2 rounds of user testing and then a round of iterations based upon our testing results after each stage. Beginning with low fidelity prototypes to mid fidelity.</p>
+    </div>
+    <div class="gridDollop-List">
+        <div class="dollopGreen">
+            <p id="dollopText-Black">What Worked</p>
+        </div>
+        <ul id="ul-Dollop-List">
+            <li>Process is easy to use, app generally is a great idea.</li>
+            <li>Found the search process really easy and clear</li>
+            <li>Love the idea of player profiles and how it enables them to vet the team before joining.</li>
+        </ul>
+        <div class="dollopRed">
+            <p id="dollopText">What Didn't Work</p>
+        </div>
+        <ul id="ul-Dollop-List">
+            <li>Would like the ability to save their details and also save teams they like for going  back to later.</li>
+            <li>Back buttons need to work properly and be more prominent. Scrolling is also off.</li>
+            <li>Missed the next button on some pages, and links don't work properly.</li>
+            <li>Copy on completion could be more folksy and not so formal.</li>
+        </ul>
+    </div>
+    <div class="contentBox-Standard">
+        <img src="images/teamderProtoChanges01.png" alt="">
+    </div>
+    <div class="contentBox-Standard">
+        <img src="images/teamderProtoChanges02.png" alt="">
+    </div>
+    <div class="contentBox-Standard">
+        <img src="images/teamderProtoChanges03.png" alt="">
+    </div>
+    <div class="contentBox-Standard">
+        <img src="images/teamderProtoChanges04.png" alt="">
+    </div>
+    <div class="contentBox-Standard">
+        <img src="images/teamderProtoChanges05.png" alt="">
+    </div>
+</section>
+<!--Prototyping Section-->
+<section class="sectionWhite" id="Prototyping">
+    <div class="contentBox-Standard">
+        <h2>Final Prototype</h2>
+        <div class="lineArt" id="purple"></div>
+    </div>
+   <div class="contentBox-Standard">
+        <p><i>Team Search flow.</i></p>
+        <img src="images/teamderSearchFlow.png" alt="">
+   </div>
+   <div class="contentBox-Center">
+    <a href="">
+        <img src="images/figmaButton.png" alt="">
+    </a>
+    <h3>View the full prototype on Figma</h3>
+   </div>
+</section>
+<!--Conclusion-->
+<section class="sectionWhite" id="Conclusion">
+    <div class="contentBox-Standard">
+        <h2>Concluding Points</h2>
+        <div class="lineArt" id="purple"></div>
+    </div>
+    <div class="contentBox-Standard">
+        <p>The teams research and user testing revealed that Teamder fills a current gap in the market; although getting along with team members is a key consideration when joining a team, no other app allows users to understand what potential teams / players are like before they join the team.</p>
+        <p>Whilst Teamder is an app addressing an essential need people have when joining a sports team, to ensure the app's success, we would look to expand the app's set of use cases so that its relevancy extends beyond finding new teams and players.</p>
+        <p>A number of ways we would achieve this would be to:</p>
+        <ul id="ul-Concluding">
+            <li id="listItem-Center">Enable users to track competition stats.</li>
+            <li id="listItem-Center">Create profiles and view the profiles of other teams and players.
+            </li>
+            <li id="listItem-Center">Add real time maps and geo location via Google.
+            </li>
+            <li id="listItem-Center">Enable team fee payment via app, which would include insurance. 
+            </li>
+        </ul>
+    </div>
+    <div class="contentBox-Standard">
+        <div id="boxHeader-Small" class="boxHeader-Purple">Some Key Take-aways...</div>
+    </div>
+    <div class="contentBox-Row">
+        <div class="blackBox">White Space is underrated</div>
+        <div class="blackBox">Important to gain inspiration from contempor-ary sources</div>
+        <div class="blackBox">Always look for ways to incorporate interaction</div>
+    </div>
+</section>
+<footer id="footer">
+    <div id="footerGrid">
+        <div id="contactHeader" class="footerBox">
+            <h1> Contact</h1>
+            <p>astefwhite@gmail.com</p>
+            <p>0439675240</p>
+        </div>
+        <div id="scHeader" class="footerBox">
+            <h1>Social Media</h1>
+            <div id="scIcons" class="footerBox2">
+                <img href="#" src="images/ph_linkedin-logo-light.jpg">
+                <img href="#" src="images/ph_instagram-logo-light.jpg">
+            </div>
+        </div>
+        <p class="fineprint">Copyright Andre Stefan White 2022</p>
+    </div>
+</footer>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="js/indexTeamder.js"></script>
+    
+
+</html>

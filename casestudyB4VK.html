@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backpack 4 Vic Kids Case Study</title>
+    <link href="CSS/stylesB4VK.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="primary-Header flex">
+        <div class="logo">
+          <a href="index.html"><img src="images/logoAlt.png" alt=""></a>
+        </div>
+        <button class="mobile-Toggle-Hamburger" aria-controls="navBar" aria-expanded="false"></button>
+        <nav>
+          <ul id="navBar" data-visible="false" class="navBar">
+            <li><a href="#Research">Research</a><span></span></li>
+            <li><a href="#Insights">Insights</a></li>
+            <li><a href="#Ideation">Ideation</a></li>
+            <li><a href="#Testing">Prototyping|Testing</a></li>
+            <!-- <li><a href="#Prototyping">Prototyping</a></li> -->
+            <li><a href="#Conclusion">Conclusion</a></li>
+         </ul>
+        </nav>
+    </header>
+    
+    <button onclick="topFunction()" id="topBtn" title="Go to top"></button> 
+    <section class="hero">
+        <div class="heroItems">
+            <img src="images/b4vkHeaderImg.png">
+        </div>
+        <div class="heroItems" id="textHero">
+            <h1>Backpacks 4 Vic Kids</h1>
+            <h3 id="alt">Redesign of Not for Profit organisation's website (unsolicited).</h3>
+        </div>
+        
+    </section>
+    <section class="sectionWhite"  id="About">
+        <div class="contentBox-Standard">
+            <h2>About the Project</h2>
+            <P>To choose a NFP (Not for Profit) website with heuristic and user issues and improve upon them, while  adding/improving features that adds to the user experience for the chosen charity. <i>(This was a group project as part of a UX/UI Bootcamp and was unsolicited by the charity).</i></P>
+            <P><b>Timeframe:</b> 2.5 weeks</P>
+        </div>
+        <div class="section-Image-Header">
+            <img src="images/1412- White Background 1.png" alt="">
+            <h3>The Team</h3>
+        </div>
+        <div class="contentBox-Row">
+            <div class="avatar-Text">
+                <img src="images/avatar01.png" alt="">
+                <p><b>Andre White</b> </p>
+                <p>UX/UI Design</p>
+            </div>
+            <div class="avatar-Text">
+                <img src="images/avatar02.png" alt="">
+                <p><b>Melissa Naval</b><p>               <p>UX/UI Design</p>
+            </div>
+            <div class="avatar-Text">
+                <img src="images/avatar03.png" alt="">
+                <p><b>Nicholas Love</b></p>
+                <p>UX/UI Design</p>
+            </div>
+        </div>
+        <div class="contentBox-Standard">
+            <h3>About the Site</h3><br>
+            <p>We choose an organization called <b>Backpacks 4 VIC Kids</b>, a Not for Profit organization in Melbourne, Australia, which provides children who are in refuge, foster care or other with a bag of basic essentials to help them cope with traumatic transitions in their lives. The charity relies on the donations of individuals and businesses as well as the aid of volunteers in delivering their services.
+            </p>
+        </div>
+        <div class="contentBox-Standard">
+            <h3>The Problem</h3><br>
+            <p>We discovered some core issues in B4VK's website design and information architecture which we felt could be improved upon to improve user experience and connectivity. With the aim to connect more people quickly and effectively to the organization with positive outcomes and increased awareness.
+            </p>
+        </div>
+    </section>
+    <section class="sectionWhite" id="Research">
+        <div class="section-Image-Header">
+            <img src="images/Ellipse 81.png" alt="">
+            <h2>Research & Definition</h2>
+        </div>
+        <div class="contentBox-Standard">
+            <p>We initially conducted a number of heuristic evaluations which highlighted some key issues and design/usability problems.</p>
+        </div>
+        <div class="contentBox-Row">
+            <img src="images/b4vkHeuristics01.png" alt="">
+            <img src="images/b4vkHeuristics02.png" alt="">
+        </div>
+        <h3>Key Findings</h3>
+        <div class="contentBox-Row">
+            <div class="pink-Box">
+                <p>Very text heavy.
+                    Could decrease copy to create stronger text.</p>
+            </div>
+            <div class="pink-Box">
+                <p>Labelling and Information Architecture needs to be improved.</p>
+            </div>
+            <div class="pink-Box">
+                <p>Inconsistent icons and design elements.</p>
+            </div>
+        </div>
+        <div class="contentBox-Row">
+            <div class="pink-Box">
+                <p>Very text heavy.
+                    Could decrease copy to create stronger text.</p>
+            </div>
+            <div class="pink-Box">
+                <p>Labelling and Information Architecture needs to be improved.</p>
+            </div>
+            <div class="pink-Box">
+                <p>Inconsistent icons and design elements.</p>
+            </div>
+        </div>
+        <div class="contentBox-Standard">
+            <p>After our initial evaluation, we devised our interview plan based around peoples volunteering and donating habits. We conducted 5 user interviews    about charity work/volunteering, as well as conducting a stakeholder interview with the creator of the NFP.</p>
+            <p>We completed this phase with some competitor analysis of 3 different charitities and one direct competitor.</p>
+        </div>
+        <div class="contentBox-Row">
+            <img src="images/avatar04.png" alt="">
+            <p class="quote-Purple">“[On volunteering] I think like demographically being a time poor and money poor Uni student is kind of making it difficult.”<br> - Erin.
+            </p>
+        </div>
+        <div class="contentBox-Row">
+            <img src="images/avatar05.png" alt="">
+            <p class="quote-Purple">“[I mainly hear of organisations through] word of mouth. Somebody else I know that becomes very involved and tells me about it.” <br>- Susan.
+            </p>
+        </div>
+        <div class="contentBox-Row">
+            <img src="images/avatar06.png" alt="">
+            <p class="quote-Purple">“Even if worst comes to worst I have to be in another state, if I can still help online, I would still help with them. I know what the cause is. I'm friends with the people themselves. I'm ok doing volunteer work with them.”<br>- Ethan.
+            </p>
+        </div>
+        <div class="contentBox-Standard">
+            <p>Much of these results from our interviews were ratified by our Google survey as well as our Stakeholder interview.</p><br>
+            <img src="images/googleSurvey01 (1).png" alt="">
+            <img src="images/googleSurvey02 (1).png" alt="">
+        </div>
+        <div class="contentBox-Standard">
+            <h3 style="color: #FD791D;">What we found...</h3><br>
+            <div class="contentBox-Row-Dots">
+                <span class="dot-Orange"></span>
+                <h3 style="color: #000000;">Word of Mouth is how most people find out about a charity.</h3>
+            </div>
+            <div class="contentBox-Row-Dots">
+                <span class="dot-Orange"></span>
+                <h3 style="color: #000000;">Life Status & time constraints affect how much they contribute.
+                </h3>
+            </div>
+            <div class="contentBox-Row-Dots">
+                <span class="dot-Orange"></span>
+                <h3 style="color: #000000;">Most people who donate/volunteer do so as it makes them feel good about themselves, and that they are contributing to society in a positive and existenstial way.</h3>
+            </div>
+            
+            <div class="contentBox-Row-Dots">
+                <span class="dot-Orange"></span>
+                <h3 style="color: #000000;">Volunteering is a great way to see where their contribution is going.
+                </h3>
+            </div>
+            <div class="contentBox-Row-Dots">
+                <span class="dot-Orange"></span>
+                <h3 style="color: #000000;">Lack of Transparency is a real turn off for most people and builds suspicion and mistrust.
+                </h3>
+            </div>
+            <div class="contentBox-Row-Dots">
+                <span class="dot-Orange"></span>
+                <h3 style="color: #000000;">Donating is easy when most immediate.
+                </h3>
+            </div>
+        </div>
+        <div class="contentBox-Standard">
+            <p>From here we developed our User Empathy Maps and User Persona.</p><br>
+            <img src="images/b4vkEmpathyMap.png" alt="">
+            <img src="images/b4vkUserPersona.png" alt="">
+        </div>
+        <h3>Key Pain Points, Wants & Needs</h3>
+        <div class="contentBox-Row">
+            <div class="orange-Box">
+                <p>Does'nt want to be pressured into donating</p>
+            </div>
+            <div class="orange-Box">
+                <p>Lacks time to research a charity properly</p>
+            </div>
+            <div class="orange-Box">
+                <p>Being harrassed to constantly donate more</p>
+            </div>
+            <div class="orange-Box">
+                <p>Does'nt like over marketing</p>
+            </div>  
+        </div>
+        <div class="contentBox-Row">
+            <div class="orange-Box">
+                <p>Wants to feel good about themselves</p>
+            </div>
+            <div class="orange-Box">
+                <p>Wants to be able to volunteer on their terms</p>
+            </div>
+            <div class="orange-Box">
+                <p>Wants Good Transparency</p>
+            </div>
+            <div class="orange-Box">
+                <p>Needs it to be easy to Donate or Volunteer</p>
+            </div>  
+        </div>
+        <div class="contentBox-Standard">
+            <p>Based upon our user research, affinity diagrams, empathy mapping and user persona we came up with the following <b>Problem Statement:</b></p>
+            <p class="quote-Purple flex-610">“We have observed that our users prefer to support non-profit organisations based on ‘word of mouth’ and recommendations of friends and only support organisations they view as reliable and trustworthy. They want the donation and volunteering process to be quick, seamless and trustworthy because they are often time poor or limited in their ability to donate or volunteer and don’t want to waste their time with dodgy charities.”</p>
+        </div>
+    </section>
+    <section class="sectionWhite" id="Ideation">
+        <div class="section-Image-Header">
+            <img src="images/Ellipse-Light-Bulb.png" alt="">
+            <h2>Ideation</h2>
+        </div>
+        <div class="contentBox-Standard">
+            <p>Keeping in mind the main pain points and wanst/wishes of our User Persona, we began ideating with the I Like, I Wish, What If method. After which we developed key features through feature prioritization matrix, which saught to address the key pain points and needs of the user.</p><br>
+            <img src="images/b4vkIlikeIwishWhatif.png" alt="">
+            <img src="images/b4vkFeatureMatrix.png" alt="">
+        </div>
+        <div class="contentBox-Standard">
+            <h3>Three Key Features</h3>
+            <div class="contentBox-Row">
+                <div class="key-Feature-Box">
+                    <img src="images/Rectangle 187.png" alt="">
+                    <p class="quote-Purple">Interactive calendar for volunteers to sign up directly, and donate their skills.</p>
+                </div>
+                <div class="key-Feature-Box">
+                    <img src="images/Rectangle 188.png" alt="">
+                    <p class="quote-Purple">A share function to alert friends of donors that they have donated and inspire others to donate.</p>
+                </div>
+                <div class="key-Feature-Box">
+                    <img src="images/Rectangle 189.png" alt="">
+                    <p class="quote-Purple">Create a fund drive through the site with realtime updates.</p>
+                </div>
+            </div>
+        </div>
+        <div class="contentBox-Standard">
+            <p>We also looked to improve the sites <b>Information Architecture</b> and styling to improve usability and also transparency.</p>
+            <div class="flex-610">
+                <img src="images/b4vkIaBefore.png" alt="">
+                <p class="image-Subtitle-Text">Current sites homepage navigation.</p>
+            </div>
+            <div class="flex-610">
+                <img src="images/b4vkIaAfter.png" alt="">
+                <p class="image-Subtitle-Text">Our redesign of the navigation and homepage.</p>
+            </div>
+        </div>
+    </section>
+    <section class="sectionWhite" id="Testing">
+        <div class="section-Image-Header">
+            <img src="images/Ellipse-TakeOff.png" alt="">
+            <h2>Prototyping & Testing</h2>
+        </div>
+        <div class="contentBox-Standard">
+            <p>Focusing on our three main features, as well as the aim to improve the overall UI and heuristics of the site, we set out with three stages of prototyping and two rounds of user testing as well as some A-B testing.</p>
+        </div>
+        <div class="contentBox-Standard">
+            <h3>Paper Wireframes</h3><br>
+            <img src="images/b4vkPaperFrames01.png" alt="">
+        </div>
+        <p class="image-Subtitle-Text">Here we have ideas for page layouts and call to action icons. This is in mobile app format.</p>
+        <div class="contentBox-Row-57">
+            <img src="images/b4vkPaperFrames02.png" alt="">
+            <img src="images/b4vkPaperFrames03.png" alt="">
+            <img src="images/b4vkPaperFrames04.png" alt="">
+        </div>
+        <p class="image-Subtitle-Text">Paper wireframes of the home page, volunteering calendar and donation icons and modules.</p>
+    </section>
+    <section class="section-Blue">
+        <h2>Low Fidelity Prototype & Testing</h2>
+        <p class="image-Subtitle-Text">Home page and donation pages.</p>
+        <div class="contentBox-Row">
+            <img src="images/b4vkLofi-01.png" alt="">
+            <img src="images/b4vkLofi-02.png" alt="">
+        </div>
+        <p class="image-Subtitle-Text">Share with a friend pages.</p>
+        <div class="contentBox-Row">
+            <img src="images/b4vkLofi-03.png" alt="">
+            <img src="images/b4vkLofi-04.png" alt="">
+        </div>
+        <p class="image-Subtitle-Text">Volunteer flow.</p>
+        <div class="contentBox-Row">
+            <img src="images/b4vkLofi-05.png" alt="">
+            <img src="images/b4vkLofi-06.png" alt="">
+        </div>
+        <div class="contentBox-Standard">
+            <img src="images/b4vkLofi-07.png" alt="">
+        </div>
+        <p class="image-Subtitle-Text">Contribute a Skill flow.</p>
+        <div class="contentBox-Row">
+            <img src="images/b4vkLofi-08.png" alt="">
+            <img src="images/b4vkLofi-09.png" alt="">
+        </div>
+        <div class="contentBox-Standard">
+            <img src="images/b4vkLofi-10.png" alt="">
+        </div>
+    </section>
+    <section class="sectionWhite">
+        <h2>Low Fidelity Testing Results</h2>
+        <div class="contentBox-Standard">
+            <img src="images/b4vkLoFiTestResults.png" alt="">
+        </div>
+        <div class="contentBox-Standard">
+            <h3>Key Findings</h3><br>
+            <div class="contentBox-Row-Dots">
+                <span class="dot-Orange"></span>
+                <p style="color: #000000;">Felt the <b>Contribute Your Skills</b> button and <b>Volunteer</b> button on home page could be merged.</p>
+            </div>
+            <div class="contentBox-Row-Dots">
+                <span class="dot-Orange"></span>
+                <p style="color: #000000;">Wanted  the <b>task radials</b> (warehouse/delivery) on the voluteer form should be moved to top.</p>
+            </div>
+            <div class="contentBox-Row-Dots">
+                <span class="dot-Orange"></span>
+                <p style="color: #000000;">Wanted the <b>Return to Homepage</b> button more central on the Thank You Pages.
+                </p>
+            </div>
+            <div class="contentBox-Row-Dots">
+                <span class="dot-Orange"></span>
+                <p style="color: #000000;">Found the Call to action button on home page confusing.  What was it for.</p>
+            </div>
+            <div class="contentBox-Row-Dots">
+                <span class="dot-Orange"></span>
+                <p style="color: #000000;">Wanted an easy donation amount to pick.</p>
+            </div>            
+        </div>
+    </section>
+    <section class="section-Blue">
+        <h2>Mid-Fidelity Prototype & Testing</h2>
+        <p class="image-Subtitle-Text">Voluteer Flow.</p>
+        <div class="contentBox-Standard">
+            <img src="images/b4vkMidFi-01.png" alt="">
+        </div>
+        <div class="contentBox-Row">
+            <img src="images/b4vkMidFi-02.png" alt="">
+            <img src="images/b4vkMidFi-03.png" alt="">
+        </div>
+        <div class="contentBox-Row">
+            <img src="images/b4vkMidFi-04.png" alt="">
+            <img src="images/b4vkMidFi-05.png" alt="">
+        </div>
+        <p class="image-Subtitle-Text">Create a Fund Drive.</p>
+        <div class="contentBox-Row">
+            <img src="images/b4vkMidFi-06.png" alt="">
+            <img src="images/b4vkMidFi-07.png" alt="">
+        </div>
+        <div class="contentBox-Row">
+            <img src="images/b4vkMidFi-08.png" alt="">
+            <img src="images/b4vkMidFi-09.png" alt="">
+        </div>
+        <div class="contentBox-Standard">
+            <img src="images/b4vkMidFi-10.png" alt="">
+        </div>
+    </section>
+    <section class="sectionWhite">
+        <h2>Mid-Fidelity Testing Results</h2>
+        <div class="contentBox-Standard">
+            <h3>Key Findings</h3><br>
+            <div class="contentBox-Row-Dots">
+                <span class="dot-Orange"></span>
+                <p style="color: #000000;"><b>Problem:</b> Finding the Share with Friends button on home page was a little confusing as they would see Request a Pack first.<br>
+                <b>Solution:</b> Seperate the Request a Pack link from the other call to action buttons.</p>
+            </div><br>
+            <div class="contentBox-Row-Dots">
+                <span class="dot-Orange"></span>
+                <p style="color: #000000;"><b>Problem:</b> Wanted to be able to Share with Friends that they had volunteered to encourage them to voluteer.<br><b>Solution:</b> Add Share with Friends button to Voluteer confirmation page.</p>
+            </div><br>
+            <div class="contentBox-Row-Dots">
+                <span class="dot-Orange"></span>
+                <p style="color: #000000;"><b>Problem:</b> Users had issues understanding what the colours meant in the volunteering calendar.<br>
+                <b>Solution:</b> Add a colour key to the calendar.</p>
+            </div><br>                       
+        </div>
+    </section>
+    <section class="sectionWhite">
+        <h2>Final Prototype</h2>
+        <div class="contentBox-Standard">
+            <p>Upon collating our testing results and conducting some A-B Testing we applied our style guide to the prototype.</p><br>
+            <img src="images/B4VK.gif" alt="">
+        </div>
+        
+        <a href="https://www.figma.com/proto/bn467HbTNSfoBvnUJkzxZm/bp4vk-project-(My-Copy)?node-id=312%3A8928&scaling=scale-down&page-id=299%3A8275&starting-point-node-id=312%3A8928" class="figma-Link-Box">View the full prototype on Figma.
+            <!-- <img src="images/figmaButton.png" alt=""> -->
+        </a>
+    </section>
+    <section class="sectionWhite" id="Conclusion">
+        <div class="section-Image-Header">
+            <img src="images/1412- White Background 1.png" alt="">
+            <h2>Concluding Thoughts</h2>
+        </div>
+        <div class="contentBox-Standard">
+            <p>When conducting our research, we discerned that most people who donate or volunteer, do so predominantly on word of mouth. They want to see transparency of where their money/time goes, and they are generally constrained by time and availability. They also donate or volunteer as it makes them feel good about themselves and has a positive social outcome.</p>
+            <p>Designing sites for NFPs therefore requires a UI and functionality that:</p>
+            <ol class="general-List">
+                <li>Provides transparency and clear information about who they are and what they do.</li>
+                <li>Has an easy interface and professional look that creates trust and belief in the organissation.</li>
+                <li>Provides the user with opportunities to donate directly and quickly as well as volunteer without having to chase emails and numerous phone calls.</li>
+                <li>Helps people feel good about contributing and sharing that positivity with others benefits both the  charity and the giver.</li>
+            </ol>
+            <p>For our project improving the functionality of the site worked best. Were we to continue on the project, we would have looked to continue to improve the UI of the site as well as its styling. Reducing copy and improving the overall architecture.</p>
+        </div>
+    </section>
+    <footer class="footer-Section-Main">
+        <div class="footer-Content-Box">
+            <p>*Image sources:</p>
+            <p><a href='https://www.freepik.com/vectors/pay-money'>Pay money vector created by catalyststuff - www.freepik.com</a></p>
+            <p></p>
+            <p></p>
+        </div>
+        
+    </footer>
+    
+</body>
+<script src="js/indexTeamder.js"></script>
+</html>
