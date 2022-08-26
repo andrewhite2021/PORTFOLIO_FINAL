@@ -385,33 +385,27 @@ html {
 
 /*works Hero Section*/
 
-#worksHeroGrid {
-    display: grid;
-    width: 71.25rem;
-    height: 40rem;
+.works-Content-Main {
+    display: flex;
+    width: 51.25rem;
+    height: fit-content;
     position: relative;
     margin: 0;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50% 50%;
-    grid-template-areas: 
-    "caseStudies worksHeroImg"
-    "otherStuff worksHeroImg";
-    justify-self: end;
-    align-self: flex-end;
+    padding: 0;
+    gap: 3rem;
+    justify-content: space-between;
+    align-self: center;
 }
 
-.worksHeroImg {
-    grid-area: worksHeroImg;
-    width: 575px;
-    height: auto;
+.works-Hero-Column {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-content: flex-end;
-    background-image: url("../images/teamderHeaderImg.png");
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 23rem;
+    height:fit-content;
+    justify-content: flex-start;
+    align-content: space-between;
+    object-fit:contain;
+    object-position: center;
 }
 
 #caseStudies {
@@ -430,7 +424,7 @@ html {
 
 .worksHeroCatg a {
     color: #FFAB2E;
-    width: 350px;
+    width: 23rem;
     line-height: 32px;
     align-self: 
     flex-start;
@@ -440,12 +434,7 @@ html {
     font-weight: 500;
 }
 
-.worksHeroCatg {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: space-between;
-}
+
 
 .worksHeroCatg a:hover {
     text-decoration-line: underline;
@@ -1168,22 +1157,18 @@ html {
         }
 
         /*works hero section*/
-        #worksHeroGrid {
-            display: grid;
-            width: 320px;
-            height: 633px;
+
+        .works-Content-Main {
+            display: flex;
+            flex-direction: column;
+            width: 24rem;
+            height: fit-content;
             position: relative;
-            margin: 6rem 0rem 3rem 0rem;
-            grid-template-columns: 1fr;
-            grid-template-rows: 250px 250px;
-            grid-template-areas: 
-            "caseStudies"
-            "otherStuff";
-            justify-self: end;
-        }
-        
-        .worksHeroImg {
-            display: none;
+            margin: 0;
+            padding: 0;
+            gap: 3rem;
+            justify-content: space-between;
+            align-self: center;
         }
 
     /*content sections*/
